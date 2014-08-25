@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", :title => "Atom Feed" %>
+
+    <link href="http://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="/stylesheets/ated4kids.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body role="document">
+<div class="container-fluid">
+    <%= partial "headermenu" %>
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <%= yield %>
+        </div>
+
+    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Una timeline dei nostri eventi.</p>
+        </div>
+        <div class="sidebar-module">
+            <h2>Articoli recenti</h2>
+            <ol>
+                <% blog.articles[0...10].each do |article| %>
+                    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+                <% end %>
+            </ol>
+
+            <h2>Tags</h2>
+            <ol>
+                <% blog.tags.each do |tag, articles| %>
+                    <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+                <% end %>
+            </ol>
+
+            <h2>Archivi per anno</h2>
+            <ol>
+                <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+                    <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+                <% end %>
+            </ol>
+
+        </div>
+        <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+                <li><a href="https://twitter.com/atedIctTicino" target="_blank">Twitter</a></li>
+                <li><a href="http://www.facebook.com/Ated4Kids" target="_blank">Facebook</a></li>
+            </ol>
+        </div>
+    </div><!-- /.blog-sidebar -->
+
+    </div>
+  </body>
+</html>
