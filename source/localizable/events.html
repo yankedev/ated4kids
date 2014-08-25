@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ated4Kids - Events</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/ated4kids.css" rel="stylesheet">
+    <link href="css/offcanvas.css" rel="stylesheet">
+
+
+    <style type="text/css">
+        html { height: 100% }
+        body { height: 100%; margin: 0;}
+        #map-canvas { height: 400px }
+    </style>
+    <script type="text/javascript">
+        function initialize() {
+            var supsiManno = new google.maps.LatLng(46.0230957,
+                                                     8.9170214);
+            var mapOptions = {
+                zoom: 16,
+                center: supsiManno
+            };
+
+            var map = new google.maps.Map(document.getElementById('map-canvas'),
+                    mapOptions);
+            var marker = new google.maps.Marker({
+                position: supsiManno,
+                map: map,
+                title:"Devoxx4kids Ticino!"
+            });
+        }
+
+        function loadScript() {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCNJY2E1c80b5GPWoNG5Dwi_fvc_5DpDYc&v=3.exp&sensor=false&' +
+                    'callback=initialize';
+            document.body.appendChild(script);
+        }
+
+        window.onload = loadScript;
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand brand" href="index.html">Ated4Kids</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav ">
+                <li class="dropdown ">
+                    <a href="index.html" class="dropdown-toggle" >Home <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#coderdojo">Presentazione</a></li>
+                        <li><a href="#d4k">I nostri scopi</a></li>
+                        <li><a href="#doposcuola">Tipi di corsi</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="aboutus.html" class="dropdown-toggle">Chi siamo <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#mentors">Mentors</a></li>
+                        <li><a href="#sponsor">Sponsor</a></li>
+                        <li><a href="#ated">Ated ICT Ticino</a></li>
+                        <li><a href="#contact">Contatti</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown active">
+                    <a href="events.html" class="dropdown-toggle" data-toggle="dropdown">Eventi <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#nextevents">Prossime date</a></li>
+                        <li><a href="#pastevents">Eventi passati</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="formats.html" class="dropdown-toggle">Formats <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#coderdojo">CoderDojo</a></li>
+                        <li><a href="#d4k">Devoxx4Kids</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="tecnologie.html" class="dropdown-toggle">Tecnologie <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Scratch</a></li>
+                        <li><a href="#">Lego Mindstorm</a></li>
+                        <li><a href="#">Arduino</a></li>
+                        <li><a href="#">Alice</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-sm-12 col-md-9">
+            <p class="pull-right visible-xs visible-sm">
+                <button type="button" class="btn btn-primary btn-xs btn-sm" data-toggle="offcanvas">Dicono di noi...</button>
+            </p>
+
+            <section id="nextevents">
+                <h2>Calendario eventi futuri o in corso</h2>
+
+                <div class="row">
+                    <div>
+                        <div class="text-center well">
+
+                            <h3 class="lead pull-center">Secondo corso CoderDojo - Autunno 2014</h3>
+                            <p>Dopo il grande successo ottenuto dal nostro primo corso CoderDojo stiamo organizzando una seconda edizione.</p>
+                            <p>Organizzeremo in parallelo 2 livelli, uno base per i nuovi iscritti o meno di 9 anni e uno avanzato per quelli che hanno già fatto il primo corso o sanno già le basi della programmazione</p>
+                            <p>Riservate le date: 11.10, 18.10, 8.11, 22.11 e 6.12.2014</p>
+                            <p>A breve apriremo le iscrizioni per i 2 livelli (base e avanzato).</p>
+
+                            <p>Anche quest'anno ci troveremo nella Sala Primavera della SUPSI di Manno:
+                            <address>
+                                Scuola universitaria professionale della Svizzera italiana (SUPSI)<br/>
+                                Galleria 2, Via Cantonale 2c<br/>
+                                6928 Manno
+                            </address>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="text-center well">
+
+                            <h3 class="lead pull-center">Primo evento devoxx4kids Ticino il 17 Maggio 2014</h3>
+
+                            <img src="images/corsi/LocandinaGdT_17052014.png" class="col-xs-12">
+
+                                <address>
+                                    Scuola universitaria professionale della Svizzera italiana (SUPSI)<br/>
+                                    Galleria 2, Via Cantonale 2c<br/>
+                                    6928 Manno
+                                </address>
+                            <input type="button" class="btn-danger btn-lg" value="Posti esauriti"/></a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="pastevents">
+                <h2>Calendario eventi terminati</h2>
+                <div class="row">
+                    <div>
+                        <div class="text-center well">
+                            <p class="lead pull-center">Corso CoderDojo da 10.10.2013 al 22.03.2014</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div><!--/span-->
+
+        <div class="col-xs-6 col-sm-6 col-md-3 sidebar-offcanvas" id="sidebar">
+            <a class="twitter-timeline" href="https://twitter.com/search?q=%23ated4kids" data-widget-id="445495051410345984">Tweet su "#ated4kids"</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div><!--/span-->
+    </div>
+</div> <!-- /container -->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/offcanvas.js"></script>
+</body>
+</html>

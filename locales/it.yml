@@ -1,0 +1,67 @@
+---
+it:
+    context_path: ""
+    menu:
+        schedule: "Programma"
+        speakers: "Relatori"
+        tickets: "Biglietti"
+        practical: "Logistica"
+        sponsors: "Sostenitori"
+        change_language: "English version"
+        change_language_base_path: "/en"
+    carousel:
+        first:
+            title: "Dagli sviluppatori, per gli sviluppatori."
+            description: "Una conferenza di altissimo livello, piena di idee stimolanti."
+        second:
+            title: "I migliori. Nella tua lingua."
+            description: "Speaker di livello assoluto che presenteranno temi affascinanti. Garantiamo che almeno il 60% dei talk saranno in Italiano!"
+        third:
+            title: "L'Open Source è una priorità"
+            description: "Siamo convinti che l'Open Source stia già facendo la differenza. E te lo dimostreremo!"
+    tracks:
+        title: "I temi che tratteremo"
+        serverside: 
+            title: "Lato server"
+            description: Linguaggi, Framework, Architettura & Sicurezza
+        mobile: 
+            title: "Mobile"
+            description: Sviluppo di applicazioni native (Android / IOS / Windows Phone) e Responsive design
+        beyond_programming: 
+            title: "Oltre la programmazione" 
+            description: "Metodologie, User group, Attività social e tutto ciò che gira intorno allo sviluppo"
+        web_development: 
+            title: "Sviluppo Web"
+            description: "Nuove tecnologie per realizzare siti web accattivanti, dinamici e reattivi"
+        cloud_big_data: 
+            title: "Cloud & BigData"
+            description: "Al di là delle parole dei Manager: il punto di vista degli sviluppatori"
+        iot: 
+            title: "Futuro"
+            description: "Internet degli oggetti (IoT), Intelligenza artificiale e trend futuri"
+        more_info: "vai al dettaglio"
+    newsletter:
+        title: "Tieniti aggiornato"
+        description: "Al momento non è possibile iscriversi. Lasciaci i tuoi dati e ti faremo sapere non appena apriremo le iscrizioni"
+        registerButton: "registrati"
+        field:
+            firstName: "Nome"
+            lastName: "Cognome"
+            eMail: "Indirizzo e-mail"
+            save: "registrati"
+    committee:
+        title: "Chi siamo"
+        full_list: "il team al completo"
+        description:
+            fy: "breve descrizione di Federico. Massimo dieci parole. Ho detto dieci!"
+            cg: "breve descrizione di Cristina. Massimo dieci parole. Ho detto dieci!"
+            mf: "breve descrizione di Mario. Massimo dieci parole. Ho detto dieci!"
+            cb: "breve descrizione di Celestino. Massimo dieci parole. Ho detto dieci!"
+    media:
+        main_sponsor: "Sponsor principali"
+    footer:
+        social: "Social media"
+        latest_posts: "Ultimi post"
+        conduct_code: "Codice di condotta"
+        contact_us: "Contatti"
+        about_us: "Chi siamo"

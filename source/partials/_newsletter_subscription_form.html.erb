@@ -1,0 +1,21 @@
+<div class="well">
+    <div class="container">
+        <h1><%= t(:'newsletter.title') %></h1>
+        <p><%= t(:'newsletter.description') %></p>
+        <form class="form-inline" role="form">
+            <div class="form-group">
+                <label for="firstName-input" class="sr-only"><%= t(:'newsletter.field.firstName') %></label>
+                <input type="text" name="firstName" class="form-control" required="true" id="firstName-input" placeholder="<%= t(:'newsletter.field.firstName') %>"/>
+            </div>
+            <div class="form-group">
+                <label for="lastName-input" class="sr-only"><%= t(:'newsletter.field.lastName') %></label>
+                <input type="text" name="lastName" class="form-control" required="true" id="lastName-input" placeholder="<%= t(:'newsletter.field.lastName') %>"/>
+            </div>
+            <div class="form-group">
+                <label for="email-input" class="sr-only"><%= t(:'newsletter.field.eMail') %></label>
+                <input type="email" class="form-control" name="email" required="true" id="email-input" placeholder="<%= t(:'newsletter.field.eMail') %>"/>
+            </div>
+            <button class="btn btn-primary"><%= t(:'newsletter.registerButton') %> <i class="fa fa-angle-double-right fa-lg"></i></button>
+        </form>
+    </div>
+</div>
