@@ -19,6 +19,6 @@ $ bundle exec middleman server
 
 How to publish the site on github pages
 ------------------
-```
+```                   
 rake publish
 ```
