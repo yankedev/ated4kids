@@ -7,20 +7,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand brand" href="/index.html">Ated4Kids</a>
+            <a class="navbar-brand brand" href="/index.html">Ated4Kids <%= currentmenu %></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav ">
-                <li class="dropdown active">
-                    <a href="/index.html" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+                <li id="dd-index" class="dropdown">
+                    <a id="tg-index" href="/index.html" class="dropdown-toggle">Home <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#a4k">Presentazione</a></li>
                         <li><a href="#goals">I nostri scopi</a></li>
                         <li><a href="#courses">Tipi di corsi</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="/aboutus.html" class="dropdown-toggle">Chi siamo <b class="caret"></b></a>
+                <li id="dd-aboutus" class="dropdown">
+                    <a id="tg-aboutus" href="/aboutus.html" class="dropdown-toggle">Chi siamo <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#mentors">Mentors</a></li>
                         <li><a href="#sponsor">Sponsor</a></li>
@@ -28,25 +28,25 @@
                         <li><a href="#contact">Contatti</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="/events.html" class="dropdown-toggle">Eventi <b class="caret"></b></a>
+                <li id="dd-events" class="dropdown">
+                    <a id="tg-events" href="/events.html" class="dropdown-toggle">Eventi <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#nextevents">Prossime date</a></li>
                         <li><a href="#pastevents">Eventi passati</a></li>
                     </ul>
                 </li>
-                <li><a href="/blog.html">Blog</a></li>
+                <li id="dd-blog"><a href="/blog.html">Blog</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="/formats.html" class="dropdown-toggle">Formats <b class="caret"></b></a>
+                <li id="dd-formats" class="dropdown">
+                    <a id="tg-formats" href="/formats.html" class="dropdown-toggle">Formats <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#coderdojo">CoderDojo</a></li>
                         <li><a href="#d4k">Devoxx4Kids</a></li>
                     </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="/tecnologie.html" class="dropdown-toggle">Tecnologie <b class="caret"></b></a>
+                <li id="dd-tecnologie" class="dropdown">
+                    <a id="tg-tecnologie" href="/tecnologie.html" class="dropdown-toggle">Tecnologie <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Scratch</a></li>
                         <li><a href="#">Lego Mindstorm</a></li>
@@ -56,5 +56,10 @@
                 </li>
             </ul>
         </div><!--/.nav-collapse -->
+        <script>
+            $("li#dd-<%= currentmenu %>").addClass("active");
+            $("a#tg-<%= currentmenu %>").attr('data-toggle', 'dropdown');
+        </script>
+        <script></script>
     </div>
 </div>

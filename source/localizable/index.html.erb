@@ -2,7 +2,7 @@
 layout: main
 ---
 
-    <%= partial "headermenu" %>
+    <%= partial(:headermenu, :locals => { :currentmenu => "index" }) %>
 
     <%= partial "motto" %>
     <%= partial "spacer" %>

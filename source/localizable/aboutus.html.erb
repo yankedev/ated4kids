@@ -1,12 +1,12 @@
 ---
 layout: main
 ---
-<%= partial "headermenu" %>
+<%= partial(:headermenu, :locals => { :currentmenu => "aboutus" }) %>
 
 <%= partial "ated" %>
 <%= partial "spacer" %>
 
-<%= partial "committee" %>
+<%= partial "mentors" %>
 <%= partial "spacer" %>
 
 <%= partial "sponsor" %>

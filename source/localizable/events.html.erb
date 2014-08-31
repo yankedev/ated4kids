@@ -1,19 +1,8 @@
 ---
 layout: main
 ---
-<%= partial "headermenu" %>
 
-<%= partial "ated" %>
-<%= partial "spacer" %>
-
-<%= partial "committee" %>
-<%= partial "spacer" %>
-
-<%= partial "sponsor" %>
-<%= partial "spacer" %>
-
-<%= partial "contact" %>
-<%= partial "spacer" %>
+<%= partial(:headermenu, :locals => { :currentmenu => "events" }) %>
 
 <%= partial "media" %>
 <%= partial "spacer" %>
