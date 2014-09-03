@@ -19,6 +19,9 @@ $ bundle exec middleman server
 
 How to publish the site on github pages
 ------------------
+
+We have to allow dirty in order to have rake publishing because the "by_date" and "by_tag" .erb files are currently not compiling (due to local variables not known), 
+
 ```                   
-rake publish
+rake publish ALLOW_DIRTY=true
 ```
