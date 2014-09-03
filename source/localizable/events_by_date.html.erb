@@ -1,13 +1,21 @@
 ---
-layout: blog
-blog: blog
+layout: events
+blog: events
 pageable: true
-per_page: 12
 ---
-<h1>Articoli taggati '<%= tagname %>'</h1>
+<h1>Archivio Eventi del
+  <% case page_type
+     when 'day' %>
+    <%= Date.new(year, month, day).strftime('%b %e %Y') %>
+  <% when 'month' %>
+    <%= Date.new(year, month, 1).strftime('%b %Y') %>
+  <% when 'year' %>
+    <%= year %>
+  <% end %>
+</h1>
 
 <% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
+  <p>Pagina <%= page_number %> of <%= num_pages %></p>
 
   <% if prev_page %>
     <p><%= link_to 'Previous page', prev_page %></p>

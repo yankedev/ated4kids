@@ -1,5 +1,6 @@
 ---
 layout: blog
+blog: blog
 pageable: true
 ---
 <h1>Archivio del
@@ -14,7 +15,7 @@ pageable: true
 </h1>
 
 <% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
+  <p>Pagina <%= page_number %> of <%= num_pages %></p>
 
   <% if prev_page %>
     <p><%= link_to 'Previous page', prev_page %></p>
