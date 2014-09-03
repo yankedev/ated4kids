@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ated4Kids</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/ated4kids.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+</head>
+
+<body role="document">
+<div class="container-fluid">
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand brand" href="/index.html">Ated4Kids</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav ">
+                <li id="dd-index" class="dropdown">
+                    <a id="tg-index" href="/index.html" class="dropdown-toggle">Home <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#a4k">Presentazione</a></li>
+                        <li><a href="#goals">I nostri scopi</a></li>
+                        <li><a href="#courses">Tipi di corsi</a></li>
+                    </ul>
+                </li>
+                <li id="dd-aboutus" class="dropdown">
+                    <a id="tg-aboutus" href="/aboutus.html" class="dropdown-toggle">Chi siamo <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#mentors">Mentors</a></li>
+                        <li><a href="#sponsor">Sponsor</a></li>
+                        <li><a href="#ated">Ated ICT Ticino</a></li>
+                        <li><a href="#contact">Contatti</a></li>
+                    </ul>
+                </li>
+                <li id="dd-events" class="dropdown">
+                    <a href="/events.html">Eventi</a>
+
+                </li>
+                <li id="dd-blog"><a href="/blog.html">Blog</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="dd-formats" class="dropdown">
+                    <a id="tg-formats" href="/formats.html" class="dropdown-toggle">Formats <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#coderdojo">CoderDojo</a></li>
+                        <li><a href="#d4k">Devoxx4Kids</a></li>
+                    </ul>
+                </li>
+                <li id="dd-tecnologie" class="dropdown">
+                    <a id="tg-tecnologie" href="/tecnologie.html" class="dropdown-toggle">Tecnologie <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Scratch</a></li>
+                        <li><a href="#">Lego Mindstorm</a></li>
+                        <li><a href="#">Arduino</a></li>
+                        <li><a href="#">Alice</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+        <script>
+            $("li#dd-aboutus").addClass("active");
+            $("a#tg-aboutus").attr('data-toggle', 'dropdown');
+        </script>
+        <script></script>
+    </div>
+</div>
+
+<section id="ated" class="text-center well">
+    <h2>Ated ICT Ticino</h2>
+    <p><a href="http://www.ated.ch" target="_blank">Ated ICT Ticino</a> è presente sul territorio da più di 40 anni e si è contraddistinta per essere
+        riuscita a coinvolgere le imprese e i singoli più importanti dell'ICT ticinese organizzando eventi, corsi, visite guidate e altre manifestazioni.
+    </p>
+    <p>Grazie alla serietà dell'attività svolta sull'arco di quarant'anni di vita, Ated ICT Ticino è diventata un riferimento nel settore per le forze economiche, politiche ed istituzionali, favorendo il dibattito attorno alle tecnologie della informazione e ravvivandone l'interesse presso i giovani.
+    </p>
+    <p>Anche in questa occasione, sostenendo Ated4Kids, Ated ICT Ticino ha dimostrato la sua velocità nel riuscire a percepire un interesse diffuso tra la popolazione (l'insegnamento di ICT ai bambini) e
+        a dare il supporto necessario affinchè le iniziative di pochi potessero diventare una realtà per tutto il cantone.</p>
+</section>
+<div class="container visible-sm-block visible-lg-block spacer"></div>
+
+<section id="mentors" class="text-center well">
+    <h2>Mentors</h2>
+    <p>Gli accompagnatori dei ragazzi alla scoperta delle tecnologie</p>
+
+    <div class="row">
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/JessicaBarbatti.png" onmouseover="this.src='images/mentors/JessicaBarbatti.png'" onmouseout="this.src='images/mentors/JessicaBarbatti.png'" alt="Jessica Barbatti" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Jessica Barbatti</div>
+            <div class="team-description">
+                Sono nata nel 1992. Dopo aver frequentato le Commerciali di Chiasso e dopo aver fatto un'esperienza all'estero (Brighton, Inghilterra) mi sono iscritta alla SSIG di Bellinzona, attualmente frequento il secondo anno. Le mie passioni sono Liguabue, Laura Pausini e ballare latino americano.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="/images/mentors/CelestinoBellone.jpg" onmouseover="this.src='/images/mentors/CelestinoBellone.jpg'" onmouseout="this.src='/images/mentors/CelestinoBellone.jpg'" alt="Celestino Bellone" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Celestino Bellone</div>
+            <div class="team-description">
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/gnentedignente" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/Lauro.png" onmouseover="this.src='images/mentors/Lauro.png'" onmouseout="this.src='images/mentors/Lauro.png'" alt="Lauro Canonica" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Lauro Canonica</div>
+            <div class="team-description">
+                Ho una formazione come ingegnere in informatica e lavoro da anni nello sviluppo di applicazioni scritte in linguaggio Java. Con Ated4Kids vorrei mostrare ai ragazzi che, con la programmazione, il computer diventa un mezzo eccezionale per dar spazio alla propria creatività e alle proprie idee.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/SalvatoreCapuano.jpg" onmouseover="this.src='images/mentors/SalvatoreCapuano.jpg'" onmouseout="this.src='images/mentors/SalvatoreCapuano.jpg'" alt="Salvatore Capuano" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Salvatore Capuano</div>
+            <div class="team-description">
+                Sono attivo professionalmente nell’informatica da ormai 20 anni e ho sempre avuto un grande interesse in tutto ciò che mi desse la possibilità di esplorazione e scoperta. La tecnologia è il contesto perfetto perchè è un mondo infinito che offre possibilità illimitate. Credo che avvicinare i ragazzi a tutto ciò dia loro la possibilità di appassionarsi a qualcosa che è sicuramente in grado di dare loro grandi soddisfazioni permettendo di sfruttare la loro creatività e, perchè no, di diventare la loro attività professionale
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/AndreaCherubini.jpg" onmouseover="this.src='images/mentors/AndreaCherubini.jpg'" onmouseout="this.src='images/mentors/AndreaCherubini.jpg'" alt="Andrea Cherubini" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Andrea Cherubini</div>
+            <div class="team-description">
+                Classe 1974, quindici anni di IT spesi in diversi contesti di business tra gestione infrastruttura e programmazione.
+                Master SUPSI in IT Management and Governance, sposato e padre felicissimo.
+                I miei interessi ruotano intorno all'informatica ed alla tecnologia, con il master ho approfondito gli aspetti di conoscenza ed innovazione, da tempo prendo parte quale relatore ad eventi in ambito di IT Management, scrivo pubblicazioni che vanno dai semplici articoli a libri di testo, con questo ho scoperto una propensione all'insegnamento ed alla divulgazione del sapere.
+                Spero con il mio piccolo contributo di far crescere i nostri ragazzi per le sfide dell'informatica del domani che sembrano essere rosee e piene di spunti di interesse.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/Andrea.jpg" onmouseover="this.src='images/mentors/Andrea.jpg'" onmouseout="this.src='images/mentors/Andrea.jpg'" alt="Andrea Chiodoni" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Andrea Chiodoni</div>
+            <div class="team-description">
+                La generazione di informatici a cui appartengo ha visto nascere la passione per il computer con l'ormai superato Commodore VIC-20 o il mitico C64. Gli studi in informatica hanno poi trasformato una passione in una professione che continua tutt'oggi quale architetto del software presso Post AG.<br/>
+                L'informatica è oggi ancora giovane e in forte evoluzione. Le possibilità offerte a chi intraprende questa professione oggi sono innumerevoli.<br/>
+                Quale padre di tre bambini vorrei adoperarmi per far conoscere questo magico mondo alle nuove generazioni.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/andrea_chiodoni" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/GiorgioCifani.JPG" onmouseover="this.src='images/mentors/GiorgioCifani.JPG'" onmouseout="this.src='images/mentors/GiorgioCifani.JPG'" alt="Giorgio Cifani" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Giorgio Cifani</div>
+            <div class="team-description">
+                Nasco come sviluppatore software negli anni ’90 e dal 2000 abbraccio con entusiasmo e convinzione il tema della mobility programmando, principalmente in ambiti B2B, i primissimi palmari con modulo GSM.
+                Lavoro per tre anni presso un OEM di smartphone (i-mate) con l’allora sistema operativo Windows Mobile e dal 2008 sono responsabile tecnico Windows Phone per la filiale italiana di Microsoft.
+                Prima per i territori del Sud Europa e poi focalizzato sul sempre più brillante mercato italiano.
+                Internet of Things, wearables ed embedded devices, inclusi Arduino e .NET Microframework, sono i miei interessi più recenti.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/SaraGusmeroli.png" onmouseover="this.src='images/mentors/SaraGusmeroli-piccola.jpg'" onmouseout="this.src='images/mentors/SaraGusmeroli.png'" alt="Sara Gusmeroli" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Sara Gusmeroli</div>
+            <div class="team-description">
+                Nata nel 1979 a Lugano. Dopo una breve esperienza nel campo dell’architettura ho frequentato il CSIA di Lugano, diplomandomi in grafica nel 2001. Ho deciso di ricominciare a studiare per allargare i miei orizzonti avendo quindi più possibilità nel mondo del lavoro. Sono attualmente al secondo anno alla SSIG di Bellinzona, scuola che mi piace molto e che spero finirò nel migliore dei modi.
+                Tra le mie passioni ci sono il cinema, la fotografia e la musica. Suono il pianoforte e amo cantare.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/DavideLenzarini.JPG" onmouseover="this.src='images/mentors/DavideLenzarini.JPG'" onmouseout="this.src='images/mentors/DavideLenzarini.JPG'" alt="Davide Lenzarini" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Davide Lenzarini</div>
+            <div class="team-description">
+
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/SilviaMarcellini.jpg" onmouseover="this.src='images/mentors/SilviaMarcellini.jpg'" onmouseout="this.src='images/mentors/SilviaMarcellini.jpg'" alt="Silvia Marcellini" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Silvia Marcellini</div>
+            <div class="team-description">
+
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/RobertoOtupacca.png" onmouseover="this.src='images/mentors/RobertoOtupacca.png'" onmouseout="this.src='images/mentors/RobertoOtupacca.png'" alt="Roberto Otupacca" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Roberto Otupacca</div>
+            <div class="team-description">
+                Diplomato come ingegnere informatico STS/SUP ho lavorato come sviluppatore, analista software, project manager e docente alla SSIG di Bellinzona.<br/>
+                La mia finora ventennale carriera professionale l'ho vissuta pellegrinando in diverse società, a volte come dipendente altre come consulente.<br/>
+                Ho avuto il piacere di affrontare molteplici linguaggi, tecnologie e banche dati e partecipare a progetti di varia natura.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/SaraPeloso.jpg" onmouseover="this.src='images/mentors/SaraPeloso-piccola.png'" onmouseout="this.src='images/mentors/SaraPeloso.jpg'" alt="Sara Peloso" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Sara Peloso</div>
+            <div class="team-description">
+                L’informatica e la tecnologia sono sempre state la mia passione e la mia professione.
+                Lavoro a Lugano presso APSoft SA, sono un Ingegnere Informatico e mi occupo di  sviluppo software e consulenza nel settore IT.
+                Co-fondatrice di Girl Geek Dinners Ticino, associazione no profit nata con lo scopo di diffondere e promuovere la cultura digitale.
+                Sono nata nel 1974 a Como, dove vivo insieme a mio marito e ai nostri tre figli.
+                Sostengo Ated4Kids perché imparare a programmare aiuta a sviluppare una metodologia per risolvere i problemi sin da piccoli, può essere divertente e dare tante soddisfazioni.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/psara74" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/Andrea_Perotti.jpg" alt="Andrea Perotti" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Andrea Perotti</div>
+            <div class="team-description">
+                Mi sono laureato in Scienze della Terra presso l’università degli Studi di Milano, vivo a Lugano e mi occupo di informatica dal 1997.<br/>
+                Sono in possesso dell’Attestato professionale federale di formatore d’adulti.<br/>
+                Amo sciare, fotografare, viaggiare, gli elicotteri radiocomandati, la Scandinavia.
+                Sono stato istruttore di sci, partecipo a gare di Gigante, Super-G e Discesa Libera.
+                <br/>
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/andreap" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="images/mentors/Romolo.png" onmouseover="this.src='images/mentors/Romolo.png'" onmouseout="this.src='images/mentors/Romolo.png'" alt="Romolo Pignone" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Romolo Pignone</div>
+            <div class="team-description">
+                Studente di Scienze della Comunicazione, scrittore autobiografico, micro-imprenditore informatico e presidente della fondazione Romulus a sostegno dei disabili. Cerco di essere una persona attiva su tanti fronti per dimostrare che tutte le barriere si possono abbatere (quasi...).<br/>
+                Ho deciso di sostenere ated4kids per cercare di trasmettere questo messaggio anche alle nuove generazioni.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="/images/mentors/Stefano.png" onmouseover="this.src='/images/mentors/Stefano.png'" onmouseout="this.src='/images/mentors/Stefano.png'" alt="Stefano Raffaelli" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Stefano Raffaelli</div>
+            <div class="team-description">
+                Sistemista di lungo corso.<br/>
+                In 20 anni ho navigato nelle infrastrutture che partivano con un floppy da 3" e mezzo fino a datacenters con storage virtuale da 30 tera.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/jaffait" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="/images/mentors/OmarTerzi.jpg" onmouseover="this.src='/images/mentors/OmarTerzi.jpg'" onmouseout="this.src='/images/mentors/OmarTerzi.jpg'" alt="Omar Terzi" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Omar Terzi</div>
+            <div class="team-description">
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/OmarTerzi" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="/images/mentors/Gaspar2013.png" onmouseover="this.src='/images/mentors/Gaspar-piccolo.png'" onmouseout="this.src='/images/mentors/Gaspar2013.png'"  alt="Gaspar Torriero" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Gaspar Torriero</div>
+            <div class="team-description">
+                Formatore informatico per adulti, blogger di lungo corso, appassionato di tecnologia, di musica e di vela. <br/>
+                Con Ated4Kids per avvicinare anche i ragazzi all'informatica.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/gaspart" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="team-element col-xs-12 col-sm-6 col-md-4 col-lg-3" id="mentor_Federico">
+            <img src="/images/mentors/Federico.png" onmouseover="this.src='/images/mentors/Federico.png'" onmouseout="this.src='/images/mentors/Federico.png'" alt="Federico Yankelevich" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Federico Yankelevich</div>
+            <div class="team-description">
+                Da quando alle elementari mi han fatto conoscere Basic, ho capito che riuscivo a esprimere la mia creatività programmando.<br/>
+                Questa consapevolezza mi ha poi aiutato a scegliere il mio percorso di studi, occupare il mio tempo libero (insieme a tanto sport) e a trovare una mia strada nel mondo del lavoro.<br/>
+                Oggi cerco di dare la possibilità ai ragazzi di scoprire un loro talento sostenendo Ated4Kids.
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/yanke46" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="container visible-sm-block visible-lg-block spacer"></div>
+
+<section id="sponsor" class="text-center well">
+    <h2>Sponsor</h2>
+    <p>Un grande ringraziamento ai nostri sponsor:</p>
+    <div class="row">
+        <h4> sponsor principale:</h4><br/>
+        <img src="images/sponsor/tecnoprogetti.png" class="col-xs-10 col-xs-offset-1"/>
+    </div>
+    <div class="row">
+        <h4> co-sponsor:</h4>
+    </div>
+    <div class="row ">
+        <img src="images/sponsor/OmniBus-logo.png" class="well col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0"/>
+        <img src="images/sponsor/logo_mtf.jpg" class="well col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0"/>
+    </div>
+    <div class="row ">
+        <img src="images/sponsor/oracle.jpeg" class="well col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0"/>
+        <img src="images/sponsor/BPS.jpg" class="well col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0"/>
+    </div>
+    <div class="row ">
+        <h4> associazioni e enti:</h4><br/>
+        <img src="images/sponsor/SUPSI.jpg" class="well col-xs-8 col-xs-offset-2 col-sm-3 "/>
+        <img src="images/sponsor/LogoAgire_Finale.jpg" class="well col-xs-8 col-xs-offset-2 col-sm-3  "/>
+        <img src="images/sponsor/swiss-engineering-ti.jpg" class="well col-xs-8 col-xs-offset-2 col-sm-3 "/>
+        <img src="/images/sponsor/atst.gif" class="well col-xs-8 col-xs-offset-2 col-sm-3 "/>
+    </div>
+    <div class="row ">
+        <h4> sostenitori:</h4><br/>
+        <img src="images/sponsor/Ated_ICT_Ticino.jpg" class="well col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-1"/>
+        <img src="images/sponsor/GIRLGEEKDINNERS_ticino_logo.jpg" class="well col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-2"/>
+    </div>
+</section>
+<div class="container visible-sm-block visible-lg-block spacer"></div>
+
+<section id="contact" class="text-center well">
+    <h2>Contatti</h2>
+    <div class="row">
+        <div class="col-xs-3 col-md-2">
+            <img src="images/mentors/Cristina.JPG" alt="Cristina Giotto" class="img-circle" height="100px" width="100px">
+            <div class="team-name">Cristina Giotto</div>
+        </div>
+        <div class="col-xs-9 col-md-10">
+            <div class="team-description">
+                Co-fondadrice di Ated4Kids, con il suo entusiasmo e l'energia è l'elemento fondamentale del gruppo, ci dà la carica coinvolgendo i mentors e organizzando e animando i nostri eventi.<br/>
+                Grazie anche al suo ruolo di Office manager presso <a href="http://www.ated.ch" target="_blank">Ated ICT Ticino</a> e per aver co-fondato il gruppo <a href="http://ticino.girlgeekdinners.com" target="_blank">GGDT</a>, ha innumerevoli conoscenze nel settore ICT ticinese e riesce sempre a coinvolgerci tutti nelle sue iniziative.<br/>
+                Se siete interessati a sponsorizzare Ated4Kids o uno dei nostri eventi, se volete iscrivervi a uno dei nostri corsi o se volete unirvi a noi per creare un Ated4Kids ancora più bello, non esitate a contattare Cristina!
+
+                <div class="team-social">
+                    <div class="tweet"><a href="https://twitter.com/CristinaGiotto" target="_blank"></a></div>
+                    <a href="mailto:ated4kids@ated.ch"><span class="glyphicon glyphicon-envelope" style="font-size: 33px;"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container visible-sm-block visible-lg-block spacer"></div>
+
+
+<div class="container visible-sm-block visible-lg-block spacer"></div>
+
+<div class="container-fluid footer">
+    <div class="row">
+        <div class="col-sm-6 col-xs-12">
+            <div class="row">
+                <h1>Sponsor principali</h1>
+                <ul class="list-inline">
+                    <li><div class="logo"><img src="images/sponsor/tecnoprogetti.png" width="150px"/></div></li>
+                    <li><div class="logo"><img src="images/sponsor/OmniBus-logo.png" width="150px"/> </div></li>
+                    <li><div class="logo"><img src="images/sponsor/logo_mtf.jpg" width="150px"/> </div></li>
+                </ul>
+            </div>
+            <div class="row">
+                <h1>Social media</h1>
+                <i class="fa fa-twitter-square fa-4x"></i>
+                <i class="fa fa-facebook-square fa-4x"></i>
+                <i class="fa fa-google-plus-square fa-4x"></i>
+                <ul class="list-inline">
+                    <li><a href="#">Codice di condotta</a></li>
+                    <li><a href="/aboutus.html#contact">Contatti</a></li>
+                    <li><a href="/aboutus.html">Chi siamo</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <h1>Ultimi post</h1> <a  href="https://twitter.com/search?q=%23ated4kids" target="_blank">twitter stream...</a></p>
+            <a class="twitter-timeline" href="https://twitter.com/search?q=%23ated4kids" data-widget-id="445495051410345984" width="500" height="200" data-chrome="noheader nofooter noborders transparent">Tweet su "#ated4kids"</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+        </div>
+    </div>
+</div>
+
+    
+
+
+</div> <!-- /container -->
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js"></script>
+<script src="/javascripts/main.js"></script>
+<script src="/javascripts/orientationchange-fix.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+---
+en:
+    context_path: "/en"
+    menu:
+        schedule: "Schedule"
+        speakers: "Speakers"
+        tickets: "Tickets"
+        practical: "Practical"
+        sponsors: "Sponsors"
+        change_language: "Versione italiana"
+        change_language_base_path: ""

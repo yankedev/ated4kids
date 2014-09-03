@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eventi ated4kids</title>
+  <subtitle>Date e luoghi</subtitle>
+  <id>http://www.ated4kids.com/events</id>
+  <link href="http://www.ated4kids.com/events"/>
+  <link href="http://www.ated4kids.com/events/feed.xml" rel="self"/>
+  <updated>2014-05-17T02:00:00+02:00</updated>
+  <author>
+    <name>Comitato ated4kids</name>
+  </author>
+  <entry>
+    <title>Primo evento devoxx4kids Ticino</title>
+    <link rel="alternate" href="http://www.ated4kids.com/events/2014/05/17/devoxx4kids-ticino.html"/>
+    <id>http://www.ated4kids.com/events/2014/05/17/devoxx4kids-ticino.html</id>
+    <published>2014-05-17T02:00:00+02:00</published>
+    <updated>2014-09-03T22:53:59+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 class="lead pull-center"&gt;Primo evento devoxx4kids Ticino il 17 Maggio 2014&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src="/images/corsi/LocandinaGdT_17052014.png" class="col-xs-12" /&gt;&lt;/p&gt;
+
+&lt;div class="well text-center"&gt;
+
+&lt;address&gt;
+    Scuola universitaria professionale della Svizzera italiana (SUPSI)&lt;br /&gt;
+    Galleria 2, Via Cantonale 2c&lt;br /&gt;
+    6928 Manno
+&lt;/address&gt;
+&lt;input type="button" class="btn-danger btn-lg" value="Posti esauriti" /&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

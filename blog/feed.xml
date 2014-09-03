@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ated4kids Blog</title>
+  <subtitle>Le nostre esperienze</subtitle>
+  <id>http://www.ated4kids.com/blog</id>
+  <link href="http://www.ated4kids.com/blog"/>
+  <link href="http://www.ated4kids.com/blog/feed.xml" rel="self"/>
+  <updated>2014-05-17T02:00:00+02:00</updated>
+  <author>
+    <name>Comitato ated4kids</name>
+  </author>
+  <entry>
+    <title>Devoxx4Kids Ticino, che bella esperienza!</title>
+    <link rel="alternate" href="http://www.ated4kids.com/blog/2014/05/17/devoxx4kids-ticino.html"/>
+    <id>http://www.ated4kids.com/blog/2014/05/17/devoxx4kids-ticino.html</id>
+    <published>2014-05-17T02:00:00+02:00</published>
+    <updated>2014-08-31T22:52:59+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;div&gt;
+    &lt;div class="row"&gt;
+
+        &lt;div class="col-sm-8"&gt;
+            &lt;p&gt;Sabato 17 Maggio si è tenuta la nostra prima Giornata della Tecnologia organizzando l'evento &lt;b&gt;devoxx4kids Ticino&lt;/b&gt;. &lt;/p&gt;
+            &lt;p&gt;È stata un'esperienza fantastica, ricca di emozioni positive e accompagnata da una grande armonia tra tutti i partecipanti.&lt;/p&gt;
+            &lt;p&gt;Con 45 ragazzi e 15 ragazze tra i 10 e i 15 anni, 25 mentors impegnati tra i laboratori, le dimostrazioni e la logistica (registrazione, pranzo e merenda) e essendo alla nostra prima esperienza, avevamo molti dubbi sul come sarebbe andata la giornata. In compenso avevamo una grande certezza: principalmente volevamo divertirci e far divertire i ragazzi.&lt;/p&gt;
+            &lt;p&gt;Il format di devoxx4kids ci ha sicuramente aiutato a tenere il giusto ritmo e abbiamo accorciato le 2 presentazioni di inizio e fine giornata per evitare di diventare noiosi, meglio iniziare subito a toccare con mano! &lt;/p&gt;
+        &lt;/div&gt;
+        &lt;img src="/images/corsi/d4k/20140517/locandina_d4k.jpg" alt="Locandina devoxx4kids Ticino" class="center-block col-sm-4" /&gt;
+    &lt;/div&gt;
+    &lt;br /&gt;
+    &lt;img src="/images/corsi/d4k/20140517/intro.jpg" alt="Presentazione iniziale" class="center-block row " /&gt;
+    &lt;br /&gt;
+    &lt;div class="row"&gt;
+        &lt;p&gt;Anche la durata dei laboratori (1 ora e mezza), che era stato uno dei temi più dibattuti durante l’organizzazione, si è rivelata una buona scelta: sufficiente per permettere ai ragazzi di capire le basi e farsi un’idea sulla tecnologia presentata e anche per costruire qualcosa di divertente raggiungendo gli obbiettivi dati.&lt;/p&gt;
+        &lt;p&gt;in anticipo sul programma e suddivisi in 3 gruppi misti, prima delle 10, i ragazzi erano già nelle aule per il primo dei tre laboratori. &lt;/p&gt;
+    &lt;/div&gt;
+    &lt;br /&gt;
+    &lt;div class="row"&gt;
+        &lt;img src="/images/corsi/d4k/20140517/team_Attuatori.jpg" alt="Team Attuatori" class="center-block col-sm-8" /&gt;   &lt;h4 class="center-block"&gt;Il gruppo degli Attuatori&lt;/h4&gt;        &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;br /&gt;
+    &lt;div class="row"&gt;
+        &lt;img src="/images/corsi/d4k/20140517/team_Bit.jpg" alt="Team Bit" class="center-block col-sm-8" /&gt;     &lt;h4 class="center-block"&gt; Il gruppo dei Bit &lt;/h4&gt;     &lt;br /&gt;
+    &lt;/div&gt;
+    &lt;br /&gt;
+    &lt;div class="row"&gt;
+        &lt;img src="/images/corsi/d4k/20140517/team_Condensatori.jpg" alt="Team Condensatori" class="center-block col-sm-8" /&gt; &lt;h4 class="center-block"&gt;Il gruppo dei Condensatori &lt;/h4&gt;&lt;br /&gt;
+    &lt;/div&gt;
+    &lt;br /&gt;
+    &lt;p&gt;I 3 workshop sono stati ripetuti 3 volte durante la giornata (10:00, 13:00 e 15:15). Tutti i gruppi hanno quindi avuto la possibilità di imparare la programmazione con &lt;b&gt;Scratch&lt;/b&gt;, conoscere le basi dell'elettronica con &lt;b&gt;Arduino&lt;/b&gt; e un’introduzione alla robotica con i &lt;b&gt;Lego Mindstorms®&lt;/b&gt; (bellissimo lavorare insiema al team &lt;a href="http://www.robo-si.ch" target="_blank"&gt;Robo-Si&lt;/a&gt;). &lt;/p&gt;
+
+    &lt;p&gt;Abbiamo subito capito di aver centrato l’obbiettivo. Tutti i ragazzi, indipendentemente dall’età e dal laboratorio fatto, sono usciti sorridenti e curiosi di provare gli altri 2 laboratori. Anche i mentors si son detti subito molto soddisfatti. L’intenso lavoro di preparazione ha pagato!&lt;/p&gt;
+    &lt;p&gt;Colgo l'occasione fare un ringraziamento speciale a tutti &lt;b&gt;i nostri mentors&lt;/b&gt;, volontari che hanno messo a disposizione il loro tempo (molto anche prima dell'evento) e le loro conoscenze. Persone preparate e appasionate che hanno guidato i ragazzi in un fantastico viaggio attraverso la tecnologia. &lt;/p&gt;
+    &lt;p&gt;Anche i ragazzi sono stati bravissimi e educatissimi, hanno saputo lavorare bene in gruppo e hanno socializzato bene tra loro, senza nessun attrito e con una sana competitività.  &lt;/p&gt;
+    &lt;p&gt; È stata questa la miglior dimostrazione di come questi ragazzi, interessati alla tecnologia, hanno spesso molti altri interessi, fanno sport e sono ben integrati nella società. Nessun "nerd" isolato dal mondo :-)&lt;/p&gt;
+
+    &lt;br /&gt;
+    &lt;p&gt;Nel frattempo Cristina (#tuttoperfetto #comesempre, grazie!) aveva imbastito nella Sala Primavera un banchetto da far invidia agli eventi più rinomati (ancora un grazie particolare ai nostri sponsor alimentari &lt;a href="http://www.rapelli.com/" target="_blank"&gt;Rapelli S.A.&lt;/a&gt; e &lt;a href="http://www.migrosticino.ch/" target="_blank"&gt;Migros Ticino&lt;/a&gt; ) e a tutti gli &lt;a href="aboutus.html#sponsor" target="_blank"&gt;sponsor di ated4kids&lt;/a&gt; perchè ci permettono di realizzare questi nostri sogni.&lt;/p&gt;
+    &lt;p&gt;I ragazzi (e i mentors) hanno quindi potuto mangiare mentre assistevano alle varie dimostrazioni di: Leap Motion, Elicotteri e Droni, Stampa 3D e del clown Roberto&lt;/p&gt;
+
+    &lt;p&gt;La Leap Motion (grande Fabio! un pezzo bellissimo) ha attirato l’attenzione di tutti con un programma capace di capire la posizione delle mani e contare le dita aperte per riconoscere le ombre cinesi, giocare alla morra, fare calcoli e cambiare i colori. Affascinante!&lt;p&gt;
+
+    &lt;p&gt;Andrea ha presentato una parte della sua collezione di elicotteri radiocomandati e, ultimo arrivato, il drone quadcopter munito di GoPro. Soprattutto tra i maschietti, questa dimostrazione è piaciuta tantissimo e hanno fatto tantissime domande molto tecniche. C'era anche la possibilità di provare a guidare un elicottero radiocomandato, usando un telecomando vero collegato a un simulatore di volo sul computer. Sono successi molti incidenti! Per fortuna solo virtuali&lt;/p&gt;
+
+    &lt;br /&gt;
+    &lt;div class="row"&gt;
+        &lt;img src="/images/corsi/d4k/20140517/elicottero01.jpg" alt="Elicotteri" class="center-block col-sm-7 " /&gt;
+        &lt;img src="/images/corsi/d4k/20140517/elicottero02.jpg" alt="Elicotteri" class="center-block col-sm-4 right " /&gt; &lt;br /&gt;
+        &lt;a href="http://www.andreaperotti.ch/apps/wordpress/2014/05/1-edizione-devoxx4kids-ticino/" target="_blank"&gt;Qui&lt;/a&gt; potete vedere il blog di Andrea e il filmato fatto dal drone sul tetto.
+    &lt;/div&gt;
+    &lt;br /&gt;
+    &lt;p&gt;Serena ci ha portato la sua stampante 3D (Ultimaker), acquistabile come kit di montaggio, completamente open-source (sia nell’hardware che nel software) e comandata da un cervello Arduino che riceve le istruzioni da un computer. Anche il materiale che viene usato per la costruzione è particolare, filamenti biodegradabili e a basso costo. Nei prossimi anni questa tecnologia sarà alla portata di tutti e rivoluzionerà la nostra quotidianità!&lt;/p&gt;
+
+    &lt;div class="row"&gt;
+        &lt;img src="/images/corsi/d4k/20140517/stampa3d.png" alt="Stampante 3d Ultimaker" class="center-block col-sm-7" /&gt;
+        &lt;img src="/images/corsi/d4k/20140517/stampa3d_cuffie.jpg" alt="Cuffie stampate" class="center-block col-sm-5" /&gt;
+    &lt;/div&gt;
+    &lt;br /&gt;
+    &lt;p&gt;Il clown Roberto è stato bravissimo a proporre giochi avvincenti ai ragazzi e a far sorridere tutti quanti con i trucchi e i palloncini di tutte le forme e colori.
+        Con lui ragazzi riuscivano a rilassarsi e ad alleggerire la tensione, che può accumularsi in una giornata così intensa. Un Jolly che ha aiutato tutti!&lt;/p&gt;
+
+    &lt;div class="row center-block"&gt;
+        &lt;div class="col-sm-2"&gt;&lt;/div&gt;
+        &lt;img src="/images/corsi/d4k/20140517/clown.jpg" alt="Clown Roberto" class="center-block col-sm-8" /&gt; &lt;br /&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;Alla fine della giornata tutti eravamo stanchi ma felicissimi, incuriositi da tutte le scoperte della giornata e affascinati da come sia stato facile organizzare e partecipare ad un evento così bello.&lt;/p&gt;
+    &lt;p&gt;Sicuramente un'esperienza da rifare. Presto!&lt;/p&gt;
+    &lt;br /&gt;
+    &lt;p&gt;Grazie di cuore a tutti!&lt;/p&gt;
+    &lt;br /&gt;
+    &lt;p&gt;Federico&lt;/p&gt;
+    &lt;br /&gt;
+    &lt;p&gt;Qui il video della giornata&lt;/p&gt;
+    &lt;iframe width="560" height="315" src="//www.youtube.com/embed/yHTsMY6f0H0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+    &lt;br /&gt;
+
+&lt;/p&gt;&lt;/p&gt;&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Devoxx4Kids Ticino, fervono i preparativi</title>
+    <link rel="alternate" href="http://www.ated4kids.com/blog/2014/04/04/preparativi-devoxx4kids.html"/>
+    <id>http://www.ated4kids.com/blog/2014/04/04/preparativi-devoxx4kids.html</id>
+    <published>2014-04-04T02:00:00+02:00</published>
+    <updated>2014-08-25T16:33:09+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;La preparazione dell'evento è iniziata e i vari mentors, suddivisi in 3 gruppi, stanno preparando i workshop per i ragazzi
+Potete iniziare a iscrivervi da subito su eventbrite&lt;br /&gt;
+A breve, su questo sito, avrete maggiori informazioni!
+A presto.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Corso Coderdojo Ticino - Palline, bombe e Pacman</title>
+    <link rel="alternate" href="http://www.ated4kids.com/blog/2014/03/15/coderdojo-ti-giochi.html"/>
+    <id>http://www.ated4kids.com/blog/2014/03/15/coderdojo-ti-giochi.html</id>
+    <published>2014-03-15T01:00:00+01:00</published>
+    <updated>2014-08-25T17:37:42+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Nel corso di quest'ultima lezione i nostri piccoli informatici hanno programmato un piccolo videogame! Ad esempio Christian si è dilettato con il Breakout, ovvero il classicio gioco della "pallina che rimbalza"…
+&lt;img src="/images/corsi/coderdojo4-1.JPG" alt="La pallina che rimbalza" /&gt;
+&lt;br /&gt;… Letizia e Chiara hanno presentato a tutti un piccolo gioco che vede come protagonista Super Mario che deve evitare di essere colpito da delle bombe…
+&lt;img src="/images/corsi/coderdojo4-2.JPG" alt="Super Mario e le bombe" /&gt;
+&lt;br /&gt;… mentre Nicola ha elaborato una sua personale versione del Pacman!
+&lt;img src="/images/corsi/coderdojo4-3.JPG" alt="L'evoluzione di Pacman" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Corso Coderdojo Ticino - consegnati i braccialetti</title>
+    <link rel="alternate" href="http://www.ated4kids.com/blog/2014/02/12/coderdojo-ti-consegnati-braccialetti.html"/>
+    <id>http://www.ated4kids.com/blog/2014/02/12/coderdojo-ti-consegnati-braccialetti.html</id>
+    <published>2014-02-12T01:00:00+01:00</published>
+    <updated>2014-08-25T17:52:48+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Durante l'ultima lezione teorica del corso Coderdojo Ticino, i ragazzi hanno mostrato ai loro compagni i loro lavori e ottenuto (meritatamente) il braccialetto "coderdojo"  &amp;lt;/p&amp;gt;
+&lt;img src="images/corsi/coderdojo3.png" alt="braccialetti consegnati!" /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Corso Coderdojo Ticino - COMUNICATO STAMPA / INVITO</title>
+    <link rel="alternate" href="http://www.ated4kids.com/blog/2014/02/05/coderdojo-ti-comunicato-stampa.html"/>
+    <id>http://www.ated4kids.com/blog/2014/02/05/coderdojo-ti-comunicato-stampa.html</id>
+    <published>2014-02-05T01:00:00+01:00</published>
+    <updated>2014-08-31T22:40:44+02:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;blockquote&gt;
+    &lt;p&gt;"Piccole opportunità sono spesso l'inizio di grandi imprese" (Demostene)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Questa citazione l’avevamo inserita nel documento di presentazione del corso alla prima lezione e ora pensiamo giusto riprenderla in quanto crediamo che veramente si addica allo spirito con il quale si sta svolgendo questa prima edizione del corso. &lt;br /&gt;
+    I nostri mentor che hanno «progettato» ogni singola lezione e che con grande impegno, dedizione e simpatia si stanno dedicando alle nostre ragazze e ai nostri ragazzi generando enorme interesse e partecipazione.
+    &lt;em&gt;Sabato 8 Febbraio, la prima certificazione&lt;/em&gt;. Terminano infatti le lezioni teoriche. Da ora in poi e fino alla fine del corso i ragazzi con il supporto dei mentor si lanceranno nei primi «veri» progetti.&lt;br /&gt;
+    Tutto questo è stato possibile grazie anche ai nostri sponsor che subito con grande entusiasmo hanno aderito al progetto, a loro un grazie particolare!
+    E loro saranno i nostri testimonial perché un’esperienza così non può certamente finire!&lt;/p&gt;
+&lt;p&gt;&lt;img src="images/corsi/ragazzi_coderdojo1.png" alt="Tesfaye, Emma, Anita e Thomas" /&gt;&lt;/p&gt;
+&lt;h5&gt;Tesfaye, Emma, Anita e Thomas&lt;/h5&gt;
+&lt;p&gt;Vi abbiamo incuriosito? Allora partecipate, sabato 8 Febbraio, dalle ore 10.30 alla lezione che si tiene presso la SUPSI-DTI, Centro Galleria 2 a Manno.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

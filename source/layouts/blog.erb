@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ated4kids Blog <%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", :title => "Atom Feed" %>
+
+    <link href="http://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="/stylesheets/ated4kids.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body role="document">
+
+   <%= partial(:headermenu, :locals => { :currentmenu => "blog" }) %>
+   <div class="container">
+     <div class="blog-header">
+         <h1 class="blog-title">Il blog di Ated4Kids</h1>
+         <p class="lead blog-description">Qui trovate tutti gli annunci e le informazioni sui nostri corsi</p>
+     </div>
+     <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <%= yield %>
+        </div>
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>Blog ated4kids</h4>
+                <p>Una timeline delle nostre esperienze</p>
+            </div>
+            <div class="sidebar-module">
+                <h2>Articoli recenti</h2>
+                <ol>
+                    <% blog.articles[0...10].each do |article| %>
+                        <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+                    <% end %>
+                </ol>
+
+                <h2>Tags</h2>
+                <ol>
+                    <% blog.tags.each do |tag, articles| %>
+                        <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
+                    <% end %>
+                </ol>
+
+                <h2>Archivi per anno</h2>
+                <ol>
+                    <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+                        <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
+                    <% end %>
+                </ol>
+
+            </div>
+            <div class="sidebar-module">
+                <h4>Altri links</h4>
+                <ol class="list-unstyled">
+                    <li><a href="https://twitter.com/atedIctTicino" target="_blank">Twitter</a></li>
+                    <li><a href="http://www.facebook.com/Ated4Kids" target="_blank">Facebook</a></li>
+                </ol>
+            </div>
+        </div><!-- /.blog-sidebar -->
+     </div>
+   </div>
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.2/fastclick.min.js"></script>
+   <script src="/javascripts/main.js"></script>
+   <script src="/javascripts/orientationchange-fix.js"></script>
+ </body>
+</html>

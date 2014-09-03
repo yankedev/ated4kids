@@ -1,0 +1,39 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="/images/carousel/lago.jpg" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1><%= t(:'carousel.first.title') %></h1>
+          <p><%= t(:'carousel.first.description') %></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="/images/carousel/pala-congressi.jpg" alt="Second slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1><%= t(:'carousel.second.title') %></h1>
+          <p><%= t(:'carousel.second.description') %></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="/images/carousel/san-salvatore.jpg" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1><%= t(:'carousel.third.title') %></h1>
+          <p><%= t(:'carousel.third.description') %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="fa fa-chevron-right"></span></a>
+</div><!-- /.carousel -->
