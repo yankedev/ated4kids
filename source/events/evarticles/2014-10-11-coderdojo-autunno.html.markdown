@@ -1,5 +1,5 @@
 ---
-title: Corso Coderdojo Ticino - Autunno 2014
+title: Corso Coderdojo Ticino Autunno 2014
 date: 2014-10-11
 tags: coderdojo, scratch
 ---
