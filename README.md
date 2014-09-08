@@ -25,3 +25,6 @@ We have to allow dirty in order to have rake publishing because the "by_date" an
 ```                   
 rake publish ALLOW_DIRTY=true
 ```
+
+
+[ ![Codeship Status for yankedev/ated4kids](https://www.codeship.io/projects/3bcaeec0-183c-0132-b3e5-2e34434bc74d/status)](https://www.codeship.io/projects/34221)
