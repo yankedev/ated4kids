@@ -19,7 +19,8 @@ $ bundle exec middleman server
 
 How to publish the site on github pages
 ------------------
-Option 1: Publish you local repo directly on ated4kids.ch:
+Option 1: 
+Publish you local repo directly on ated4kids.ch:
 ```                   
 rake publish
 ```
@@ -29,6 +30,16 @@ if you have uncommitted code in you local repo use:
 rake publish ALLOW_DIRTY=true
 ```
 
-Option 2: Push your changes to yankedev/ated4kids repository and the Codeship Continuous Deployment job will publish it in few minutes:
+Option 2: 
+
+Commit and push your changes on master branch
+```                   
+$ git commit -m "DESCRIPTION_OF_CHANGE"
+$ git push origin
+```
+
+Note: if you don't have permissions to push on yankedev origin, please submit a Pull Request (PR)
+
+The master branch will then be built from codeship.io and deployed on gh-pages branch
 
 [ ![Codeship Status for yankedev/ated4kids](https://www.codeship.io/projects/3bcaeec0-183c-0132-b3e5-2e34434bc74d/status)](https://www.codeship.io/projects/34221)
