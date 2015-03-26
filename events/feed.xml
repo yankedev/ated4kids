@@ -5,16 +5,46 @@
   <id>http://www.ated4kids.com/events</id>
   <link href="http://www.ated4kids.com/events"/>
   <link href="http://www.ated4kids.com/events/feed.xml" rel="self"/>
-  <updated>2014-09-04T00:00:00+00:00</updated>
+  <updated>2015-03-15T00:00:00+00:00</updated>
   <author>
     <name>Comitato ated4kids</name>
   </author>
+  <entry>
+    <title>Corso Coderdojo Ticino Primavera 2015</title>
+    <link rel="alternate" href="http://www.ated4kids.com/events/2015/03/15/coderdojo-primavera.html"/>
+    <id>http://www.ated4kids.com/events/2015/03/15/coderdojo-primavera.html</id>
+    <published>2015-03-15T00:00:00+00:00</published>
+    <updated>2015-03-26T21:29:13+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h3 class="lead pull-center"&gt;Terzo corso CoderDojo - Primavera 2015&lt;/h3&gt;
+&lt;p&gt;Continuano i sabati mattina del CoderDojo!&lt;/p&gt;
+&lt;p&gt;Un nuovo corso base per tutti i ragazzi dai 6 ai 10 anni&lt;/p&gt;
+&lt;p&gt;Riservate le date: 15.03, 28.03, 25.04, 30.05, 12.09 e 26.09.2015
+&lt;/p&gt;
+&lt;p&gt;Per le iscrizioni usare il formulario sul &lt;a href="http://www.ated.ch/corsi/8/coderdojo-ticino---corso-base_3152.html" target="_blank"&gt;sito ated
+
+&lt;p&gt;Anche questa volta ci troveremo nella Sala Primavera della SUPSI di Manno:
+&lt;div class="well text-center"&gt;
+&lt;address&gt;
+    Scuola universitaria professionale della Svizzera italiana (SUPSI)&lt;br /&gt;
+    Galleria 2, Via Cantonale 2c&lt;br /&gt;
+    6928 Manno
+&lt;/address&gt;
+&lt;input type="button" class="btn-danger btn-lg" value="Posti esauriti" /&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Corso Coderdojo Ticino Autunno 2014</title>
     <link rel="alternate" href="http://www.ated4kids.com/events/2014/09/04/coderdojo-autunno.html"/>
     <id>http://www.ated4kids.com/events/2014/09/04/coderdojo-autunno.html</id>
     <published>2014-09-04T00:00:00+00:00</published>
-    <updated>2015-03-11T14:54:37+00:00</updated>
+    <updated>2015-03-26T21:29:13+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -42,7 +72,7 @@
     <link rel="alternate" href="http://www.ated4kids.com/events/2014/05/17/devoxx4kids-ticino.html"/>
     <id>http://www.ated4kids.com/events/2014/05/17/devoxx4kids-ticino.html</id>
     <published>2014-05-17T00:00:00+00:00</published>
-    <updated>2015-03-11T14:54:37+00:00</updated>
+    <updated>2015-03-26T21:29:13+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
