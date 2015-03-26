@@ -1,7 +1,7 @@
 ---
 title: Secondo evento devoxx4kids Ticino
-date: 2015-04-19
-tags: devoxx4kids, gdt, scratch, arduino, minecraft modding, stampa3d
+date: 2015-03-24
+tags: devoxx4kids, gdt, scratch, arduino, minecraft-modding, stampa3d
 ---
 
 
@@ -9,7 +9,6 @@ tags: devoxx4kids, gdt, scratch, arduino, minecraft modding, stampa3d
 
 <img src="/images/corsi/LocandinaGdT_19042015.jpg" class="col-xs-12"/>
 
-<h2></h2>
 
 <div class="well text-center">
 
